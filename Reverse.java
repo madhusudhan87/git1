@@ -2,7 +2,7 @@ public class Reverse
 {
 public static void main(String[] madhu)
 {
-int number=5;
+int number=6;
 int fact=1;
 int i=1;
 while(i<=number)
