@@ -1,19 +1,16 @@
 public class Reverse
 {
-   public static void main (String[] args)
-   {		
-String rever="";
-       String str="malayalam";
-
-for(int i=str.length()-1;i>=0;i--){
-rever=rever+str.charAt(i);
-}
-if(rever==str)
+public static void main(String[] madhu)
 {
-System.out.println(rever+" is palindrome");
+int number=5;
+int fact=1;
+int i=1;
+while(i<=number)
+{
+fact=fact*i;
+i++;
 }
-else{
-System.out.println(rever+" is not palindrome");
+System.out.println("the factorial num of: "+number+"is"+ fact);
 }
 }
-}
+
